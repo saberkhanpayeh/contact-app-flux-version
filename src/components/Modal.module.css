@@ -1,0 +1,48 @@
+.container{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-color:#F5F5F7;
+    color: #121d2b;
+    width:40%;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    }
+.container div svg{
+        color: #b554d7;
+        font-size: 3.5rem;
+    }
+.container p{
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+.btn{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* background-color: red; */
+}
+    .btn button{
+        height: 40px;
+        padding: 10px;
+        width: 40%;
+        cursor: pointer;
+        color:#b554d7;
+        background-color: inherit;
+        border: 1px solid #2A3440;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        
+    }
+    .btn button:hover{
+        background-color: #b554d7;
+        color: inherit;
+    }
+    

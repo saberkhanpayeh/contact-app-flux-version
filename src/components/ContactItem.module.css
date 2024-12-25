@@ -1,0 +1,51 @@
+.card{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10px;
+    border-top:1px solid #293340;
+    border-bottom:1px solid #293340 ;
+    position: relative;
+}
+.card p{
+    flex-basis:0;
+    flex-grow:1;
+    text-align: center;
+}
+.imageContainer{
+ width: fit-content;
+}
+.card img{
+    display:block;
+    width: 50px;
+    margin-right: 10px;
+}
+.card button{
+    width: 35px;
+    height: 35px;
+    color:#B554D7;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    transition: 0.2s all ease-in-out;
+}
+
+.card button:hover{
+    font-size: 1.4rem;
+}
+.card .btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.checkbox{
+    width: 10%;
+    /* background-color: palevioletred; */
+    position: relative;
+}

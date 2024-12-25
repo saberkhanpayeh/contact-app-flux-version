@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.listContainer{
+    width: 75%; 
+    margin-top: 50px;
+}
+.listHeader{
+    display: flex;
+    justify-content: space-between;
+    padding:0 14px;
+}
+.listHeader h3{
+    color:#fff;
+    font-size: 1.2rem;
+}
+
+.listHeader button{
+    width: 35px;
+    height: 35px;
+    color:#B554D7;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: inherit;
+    border: 1px solid #B554D7;
+    border-radius: 50%;
+    line-height: 35px;
+}
+.list{
+    
+    list-style-type: none;
+   /* background-color:  red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+}

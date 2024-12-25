@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:#121D2B;
+}
+.container img{
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin-top: 10px;
+    align-self: flex-start;
+}
+.btn a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #B554D7;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:#121D2B;
+}
+.btn a svg{
+    margin-right: 5px;
+}

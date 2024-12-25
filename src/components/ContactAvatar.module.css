@@ -1,0 +1,44 @@
+.avatar{
+    align-self: flex-start; 
+}
+
+.avatar button{
+    display: flex;
+    align-items: center;
+    background:none;
+    padding: 0;
+    color:#b8bbbf;
+    
+}
+.avatar button svg{
+    color:#b554d7;
+    font-size: 18px;
+    border: 2px solid #b554d7;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+
+.avatar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.avatar ul li{
+ width: 25%;
+ text-align: center;
+}
+.avatar li img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+.avatar li img:hover{
+    transform: scale(1.1); 
+}
+
+.selected{
+    background-color:#f7753d49;
+    color: #fe5d42;
+    border-radius: 10px;
+}
